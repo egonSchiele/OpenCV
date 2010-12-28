@@ -218,8 +218,6 @@ CV_IMPL void cvCanny( const void* srcarr, void* dstarr,
 
 	high *= bin_size;
 	low = threshold_ratio * high;
-	cout << "high: " << high << endl;
-	cout << "low: " << low << endl;
 	int adit = 10;
 
 	// non-maxima suppression
