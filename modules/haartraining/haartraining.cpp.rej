@@ -1,0 +1,17 @@
+***************
+*** 49,54 ****
+  #include <cstring>
+  #include <cstdlib>
+  
+  #include "cvhaartraining.h"
+  
+  int main( int argc, char* argv[] )
+--- 49,56 ----
+  #include <cstring>
+  #include <cstdlib>
+  
++ using namespace std;
++ 
+  #include "cvhaartraining.h"
+  
+  int main( int argc, char* argv[] )

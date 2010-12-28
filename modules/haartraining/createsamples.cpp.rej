@@ -1,0 +1,17 @@
+***************
+*** 50,55 ****
+  #include <cstdlib>
+  #include <cmath>
+  
+  #include "cvhaartraining.h"
+  
+  int main( int argc, char* argv[] )
+--- 50,57 ----
+  #include <cstdlib>
+  #include <cmath>
+  
++ using namespace std;
++ 
+  #include "cvhaartraining.h"
+  
+  int main( int argc, char* argv[] )
