@@ -1,3 +1,7 @@
+SET(CMAKE_C_COMPILER "/usr/bin/gcc")
+SET(CMAKE_CXX_COMPILER "/usr/bin/g++")
+set(CMAKE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -F/opt/local/Library/Frameworks -L/Users/batman/Documents/Scribd/scribox/Darwin-x86_64/python/lib")
+
 # ----------------------------------------------------------------------------
 #  Root CMake file for OpenCV
 #
