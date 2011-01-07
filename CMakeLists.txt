@@ -532,14 +532,7 @@ if(BUILD_NEW_PYTHON_SUPPORT)
                     RESULT_VARIABLE PYTHON_NUMPY_PROCESS
                     OUTPUT_VARIABLE PYTHON_NUMPY_INCLUDE_DIRS
                     OUTPUT_STRIP_TRAILING_WHITESPACE)
-    if(PYTHON_NUMPY_PROCESS EQUAL 0)
-      set(PYTHON_USE_NUMPY 1)
-      add_definitions(-D PYTHON_USE_NUMPY=1)
-      include_directories(AFTER ${PYTHON_NUMPY_INCLUDE_DIRS})
-      message(STATUS "    Use INCLUDE: ${PYTHON_NUMPY_INCLUDE_DIRS}")
-    else()
-      set(PYTHON_USE_NUMPY 0)
-    endif()
+    set(PYTHON_USE_NUMPY 0)
 
 
 endif()
